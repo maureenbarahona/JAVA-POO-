@@ -3,20 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package hn.uth.poo.p2;
-
-import hn.uth.poo.p2.objetos.Gato;
-import hn.uth.poo.p2.objetos.Perro;
+package hn.uth.poo.p2.objetos;
 
 /**
  *
  * @author maureen
  */
-public class main {
-  
-    Perro perro1= new Perro();
-    Gato gato1= new Gato();
+public class Perro extends Mascota{
+
+    @Override
+    public int caminar(int distancia) {
+       return distancia *2;
+    }
     
-    
-    
+
 }

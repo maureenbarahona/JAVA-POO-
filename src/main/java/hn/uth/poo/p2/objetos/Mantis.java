@@ -9,12 +9,11 @@ package hn.uth.poo.p2.objetos;
  *
  * @author maureen
  */
-public class Gato extends Mascota {
+public class Mantis extends Mascota{
 
     @Override
     public int caminar(int distancia) {
-   return distancia *7;
+        return distancia*3;
     }
-    
     
 }

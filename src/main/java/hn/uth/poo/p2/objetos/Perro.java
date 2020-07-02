@@ -13,7 +13,7 @@ public class Perro extends Mascota{
 
     @Override
     public int caminar(int distancia) {
-       return distancia *2;
+       return distancia *8;
     }
     
 
